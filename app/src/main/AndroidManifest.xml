@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sm.uok.cooking">
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_cook"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_cook"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cooking">
+        <activity android:name=".Arabic"
+            android:label="غذاهای عربی"/>
+        <activity android:name=".Mexico"
+            android:label="غذاهای مکزیکی"
+            />
+        <activity android:name=".Mediterranean"
+            android:label="غذاهای مدیترانه ای"/>
+        <activity android:name=".China"
+            android:label="غذاهای چینی"/>
+        <activity
+            android:name=".Search"
+            android:label="جستجو" />
+        <activity
+            android:name=".AboutUs"
+            android:label="درباره ما" />
+        <activity
+            android:name=".ForwardList"
+            android:label="لیست علاقه مندی ها" />
+        <activity
+            android:name=".StudyActivity"
+            android:label="لیست مطالعه" />
+        <activity
+            android:name=".khareji"
+            android:label="غذاهای خارجی" />
+        <activity
+            android:name=".irani"
+            android:label="غذاهای ایرانی" />
+        <activity
+            android:name=".MainActivity"
+            android:label="صفحه اصلی" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

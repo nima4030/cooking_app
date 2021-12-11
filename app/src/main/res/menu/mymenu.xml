@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:title="">
+
+    <menu>
+      <item
+          android:title="جستجو"
+          android:id="@+id/search"
+          android:icon="@drawable/ic_search_for_menu"
+          app:showAsAction="always">
+
+      </item>
+        <item
+            android:title="تغییر تم"
+            android:id="@+id/changeTheme"
+            android:icon="@drawable/ic_baseline_collections_24"
+            app:showAsAction="always">
+
+        </item>
+        <item
+            android:title="حمایت از ما"
+            android:id="@+id/likeUs"
+            android:icon="@drawable/ic_baseline_thumb_up"
+            app:showAsAction="always">
+
+        </item>
+
+        <item
+            android:title="درباره ما"
+            android:id="@+id/aboutUs"
+            android:icon="@drawable/ic__info"
+            app:showAsAction="always">
+
+        </item>
+
+        <item
+            android:title="خروج"
+            android:id="@+id/Exit"
+            android:icon="@drawable/ic_exit_to_app"
+            app:showAsAction="always">
+
+        </item>
+
+        
+    </menu>
+</item>
+</menu>
