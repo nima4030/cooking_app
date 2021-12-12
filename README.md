@@ -7,7 +7,7 @@ An app to teach the best dishes of different nations
 
 ---
 
-##Screen Shots
+## Screen Shots
 
   ![image3](/art/5.png)
   ![image2](/art/6.png)
