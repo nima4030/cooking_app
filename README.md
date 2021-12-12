@@ -1,5 +1,6 @@
 # cooking_app
 
+An app to teach the best dishes of different nations
 
 ##Screen Shots
 
